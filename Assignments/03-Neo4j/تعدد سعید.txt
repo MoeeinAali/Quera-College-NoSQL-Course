@@ -1,0 +1,16 @@
+MATCH (developer:Staff {name: "Saeid", age: 22})
+SET developer.roll = "Developer", developer.status = "Remote";
+
+MATCH (pm:Staff {status: "Hybrid", name: "Saeid"})
+SET pm.roll = "Product Manager", pm.status = "Hybrid";
+
+MATCH (p:Staff)-[r:ADVISE_TO]->()
+SET p.roll="Product Designer",p.status ="Hybrid";
+
+MATCH (blm:Staff {name: "Saeid",age:29})
+SET blm.roll = "BL Manager", blm.status = "On_site", blm.age = 29;
+
+MATCH (pm:Staff {roll: "Product Manager"})
+MATCH (pd:Staff)-[:ADVISE_TO]->(pm)
+WHERE pd.name = "Saeid" AND pd.status = "Hybrid" 
+SET pd.roll = "Product Designer";

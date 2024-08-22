@@ -1,0 +1,2 @@
+MATCH (d:Developer)-[:WORKING_IN]->(q:Company {name: "Quera"})
+RETURN d
