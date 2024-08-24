@@ -1,12 +1,4 @@
-# Redis with Python Cheat Sheet
-
-This cheat sheet provides a quick reference for using Redis in Python with the `redis-py` library.
-
 ## Table of Contents
-- [Redis with Python Cheat Sheet](#redis-with-python-cheat-sheet)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Connecting to Redis](#connecting-to-redis)
 - [Basic Operations](#basic-operations)
   - [Strings](#strings)
   - [Hashes](#hashes)

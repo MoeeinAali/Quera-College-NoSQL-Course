@@ -1,21 +1,16 @@
-# Redis Cheat Sheet
-
-Redis is an in-memory data structure store, used as a database, cache, and message broker. This cheat sheet covers the most commonly used Redis commands.
-
 ## Table of Contents
-- [Redis Cheat Sheet](#redis-cheat-sheet)
-  - [Table of Contents](#table-of-contents)
-  - [Connection](#connection)
-  - [Keys](#keys)
-  - [Strings](#strings)
-  - [Hashes](#hashes)
-  - [Lists](#lists)
-  - [Sets](#sets)
-  - [Sorted Sets (ZSets)](#sorted-sets-zsets)
-  - [Transactions](#transactions)
-  - [Pub/Sub](#pubsub)
-  - [Server](#server)
-  - [Other Commands](#other-commands)
+- [Table of Contents](#table-of-contents)
+- [Connection](#connection)
+- [Keys](#keys)
+- [Strings](#strings)
+- [Hashes](#hashes)
+- [Lists](#lists)
+- [Sets](#sets)
+- [Sorted Sets (ZSets)](#sorted-sets-zsets)
+- [Transactions](#transactions)
+- [Pub/Sub](#pubsub)
+- [Server](#server)
+- [Other Commands](#other-commands)
 
 ## Connection
 ```bash
