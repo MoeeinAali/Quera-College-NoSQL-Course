@@ -1,0 +1,6 @@
+MATCH (m:Developer {name: "Matin"})-[:WORKING_IN]->(c:Company {name: "Quera"})
+SET m.roll = "Technical Section Lead",
+    m.org_email = "Matin@quera.org",
+    m.chapter = "Education",
+    m.leader = "Ali"
+RETURN m

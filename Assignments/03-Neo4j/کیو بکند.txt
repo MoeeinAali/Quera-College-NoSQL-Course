@@ -1,0 +1,5 @@
+CREATE (Ali:Developer {name: 'Ali'})
+CREATE (Matin:Developer {name: 'Matin'})
+CREATE (Moein:Developer {name: 'Moein'})
+CREATE (Ali)-[:LEADS]->(Matin)
+CREATE (Matin)-[:LEADS]->(Moein)
