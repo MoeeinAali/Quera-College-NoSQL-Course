@@ -29,3 +29,7 @@ SELECT department, course_id,
        AVG(grade) AS average_grade
 FROM grades_by_dept
 GROUP BY department, course_id;
+
+
+
+
